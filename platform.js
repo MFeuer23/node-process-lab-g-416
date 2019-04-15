@@ -1,1 +1,1 @@
-module.exports = function() {return 'qa'}
+module.exports = function() {return process.env._system_type}
