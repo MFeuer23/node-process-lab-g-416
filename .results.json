@@ -1,0 +1,67 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-04-15T18:21:21.488Z",
+    "end": "2019-04-15T18:21:21.501Z",
+    "duration": 13
+  },
+  "tests": [
+    {
+      "title": "must have version 8.15.1",
+      "fullTitle": "node must have version 8.15.1",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must be darwin,linux",
+      "fullTitle": "platform must be darwin,linux",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...) is not a function\n    at Context.<anonymous> (test/index.js:18:70)",
+        "message": "require(...) is not a function"
+      }
+    },
+    {
+      "title": "must be qa",
+      "fullTitle": "env var NODE_ENV must be qa",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must be darwin,linux",
+      "fullTitle": "platform must be darwin,linux",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...) is not a function\n    at Context.<anonymous> (test/index.js:18:70)",
+        "message": "require(...) is not a function"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "must have version 8.15.1",
+      "fullTitle": "node must have version 8.15.1",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must be qa",
+      "fullTitle": "env var NODE_ENV must be qa",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
