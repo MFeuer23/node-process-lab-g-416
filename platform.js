@@ -1,1 +1,1 @@
-module.exports = function() {return process.env._system_type}
+module.exports = function() {return process.env._system_type.toLowerCase()}
