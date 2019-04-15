@@ -1,1 +1,5 @@
-module.exports = process.versions.node
+function version() {
+  return process.versions.node
+}
+
+module.exports = version
